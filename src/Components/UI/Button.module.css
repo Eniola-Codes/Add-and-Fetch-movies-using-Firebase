@@ -1,0 +1,17 @@
+.button 
+{
+    color: white;
+    border: none;
+    background-color: rgb(8, 68, 121);
+    padding: 10px 0;
+    width: 150px;
+    border-radius: 10px;
+    font-family: 'Poppins',sans-serif;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button:hover
+{
+    background-color: rgb(18, 102, 175);
+}
