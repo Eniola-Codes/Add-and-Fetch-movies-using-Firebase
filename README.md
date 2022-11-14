@@ -1,73 +1,36 @@
-# End Result
+# movie info app with firebase
 
-click link : https://mymovie-by-eniola.netlify.app/
-# Getting Started with Create React App
+An application which movies of the stars wars movie using the star wars API
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**End Result**
 
-## Available Scripts
+Click Link Here : https://mymovie-by-eniola.netlify.app/
 
-In the project directory, you can run:
+# Description
 
-### `npm start`
+**Details**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+An application Which possesses a form where you can input information of a movie such as Title, opening text, release date, director, producer. The information are then submitted and sent to firebase.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![form](https://github.com/Eniola-Codes/Consuming-Stars-wars-Movie-demo-Api-/blob/main/src/assets/button.png?raw=true)
 
-### `npm test`
+You can then click on the 'fetch movies' button to get the movies back from firebase and display them in a card list.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![button](https://github.com/Eniola-Codes/Consuming-Stars-wars-Movie-demo-Api-/blob/main/src/assets/button.png?raw=true)
 
-### `npm run build`
+The application automatically fetches for the information when you load it, but you can always refresh or re-fetch the data by clicking on the fetch movies button.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Technologies**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Technologies i used to build this are React.js, css and Firebase
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+I used React.js framework to bootstrap this project because of the below functionalities : 
 
-### `npm run eject`
+- Seperation of concerns (Having leaner files and components by breaking down the code into smaller parts)
+- Prop drilling to pass some data from component to component with ease.
+- Css modules which prevent clashing of classnames around components therefore avoiding unwanted results
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Installation and Running
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+git clone or pull the project using your terminal, open the project folder on your local laptop in a code editor and run "npm start" in your editors terminal.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
