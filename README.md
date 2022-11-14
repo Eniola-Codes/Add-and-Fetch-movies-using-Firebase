@@ -16,7 +16,7 @@ An application Which possesses a form where you can input information of a movie
 
 You can then click on the 'fetch movies' button to get the movies back from firebase and display them in a card list.
 
-![button](https://github.com/Eniola-Codes/Consuming-Stars-wars-Movie-demo-Api-/blob/main/src/assets/button.png?raw=true)
+![button](https://github.com/Eniola-Codes/Add-and-Fetch-movies-using-Firebase/blob/main/src/assets/button.png?raw=true)
 
 The application automatically fetches for the information when you load it, but you can always refresh or re-fetch the data by clicking on the fetch movies button.
 
